@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3865239C1882F57300DA3DE3 /* DateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3865239B1882F57300DA3DE3 /* DateTime.m */; };
+		3865239F1882F66B00DA3DE3 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3865239E1882F66B00DA3DE3 /* Utilities.m */; };
+		38DA4B67187B38FA006F803D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DA4B66187B38FA006F803D /* Cocoa.framework */; };
+		38DA4B71187B38FA006F803D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38DA4B6F187B38FA006F803D /* InfoPlist.strings */; };
+		38DA4B73187B38FA006F803D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DA4B72187B38FA006F803D /* main.m */; };
+		38DA4B77187B38FA006F803D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 38DA4B75187B38FA006F803D /* Credits.rtf */; };
+		38DA4B7A187B38FA006F803D /* mrlAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DA4B79187B38FA006F803D /* mrlAppDelegate.m */; };
+		38DA4B7D187B38FA006F803D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38DA4B7B187B38FA006F803D /* MainMenu.xib */; };
+		38DA4B80187B38FA006F803D /* BasicCocoaDrawing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38DA4B7E187B38FA006F803D /* BasicCocoaDrawing.xcdatamodeld */; };
+		38DA4B82187B38FA006F803D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38DA4B81187B38FA006F803D /* Images.xcassets */; };
+		38DA4B89187B38FA006F803D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DA4B88187B38FA006F803D /* XCTest.framework */; };
+		38DA4B8A187B38FA006F803D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DA4B66187B38FA006F803D /* Cocoa.framework */; };
+		38DA4B92187B38FA006F803D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38DA4B90187B38FA006F803D /* InfoPlist.strings */; };
+		38DA4B94187B38FA006F803D /* BasicCocoaDrawingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DA4B93187B38FA006F803D /* BasicCocoaDrawingTests.m */; };
+		38DA4B9F187B3912006F803D /* mrlShapesAndColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DA4B9E187B3912006F803D /* mrlShapesAndColors.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38DA4B8B187B38FA006F803D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38DA4B5B187B38FA006F803D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DA4B62187B38FA006F803D;
+			remoteInfo = BasicCocoaDrawing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3865239A1882F57300DA3DE3 /* DateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTime.h; sourceTree = "<group>"; };
+		3865239B1882F57300DA3DE3 /* DateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTime.m; sourceTree = "<group>"; };
+		3865239D1882F66B00DA3DE3 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		3865239E1882F66B00DA3DE3 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		38DA4B63187B38FA006F803D /* BasicCocoaDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicCocoaDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DA4B66187B38FA006F803D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		38DA4B69187B38FA006F803D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		38DA4B6A187B38FA006F803D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		38DA4B6B187B38FA006F803D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38DA4B6E187B38FA006F803D /* BasicCocoaDrawing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BasicCocoaDrawing-Info.plist"; sourceTree = "<group>"; };
+		38DA4B70187B38FA006F803D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38DA4B72187B38FA006F803D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38DA4B74187B38FA006F803D /* BasicCocoaDrawing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BasicCocoaDrawing-Prefix.pch"; sourceTree = "<group>"; };
+		38DA4B76187B38FA006F803D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		38DA4B78187B38FA006F803D /* mrlAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mrlAppDelegate.h; sourceTree = "<group>"; };
+		38DA4B79187B38FA006F803D /* mrlAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mrlAppDelegate.m; sourceTree = "<group>"; };
+		38DA4B7C187B38FA006F803D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		38DA4B7F187B38FA006F803D /* BasicCocoaDrawing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BasicCocoaDrawing.xcdatamodel; sourceTree = "<group>"; };
+		38DA4B81187B38FA006F803D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38DA4B87187B38FA006F803D /* BasicCocoaDrawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicCocoaDrawingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DA4B88187B38FA006F803D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		38DA4B8F187B38FA006F803D /* BasicCocoaDrawingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BasicCocoaDrawingTests-Info.plist"; sourceTree = "<group>"; };
+		38DA4B91187B38FA006F803D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38DA4B93187B38FA006F803D /* BasicCocoaDrawingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicCocoaDrawingTests.m; sourceTree = "<group>"; };
+		38DA4B9D187B3912006F803D /* mrlShapesAndColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mrlShapesAndColors.h; sourceTree = "<group>"; };
+		38DA4B9E187B3912006F803D /* mrlShapesAndColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mrlShapesAndColors.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38DA4B60187B38FA006F803D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DA4B67187B38FA006F803D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DA4B84187B38FA006F803D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DA4B8A187B38FA006F803D /* Cocoa.framework in Frameworks */,
+				38DA4B89187B38FA006F803D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38DA4B5A187B38FA006F803D = {
+			isa = PBXGroup;
+			children = (
+				38DA4B6C187B38FA006F803D /* BasicCocoaDrawing */,
+				38DA4B8D187B38FA006F803D /* BasicCocoaDrawingTests */,
+				38DA4B65187B38FA006F803D /* Frameworks */,
+				38DA4B64187B38FA006F803D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38DA4B64187B38FA006F803D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38DA4B63187B38FA006F803D /* BasicCocoaDrawing.app */,
+				38DA4B87187B38FA006F803D /* BasicCocoaDrawingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38DA4B65187B38FA006F803D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38DA4B66187B38FA006F803D /* Cocoa.framework */,
+				38DA4B88187B38FA006F803D /* XCTest.framework */,
+				38DA4B68187B38FA006F803D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38DA4B68187B38FA006F803D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38DA4B69187B38FA006F803D /* AppKit.framework */,
+				38DA4B6A187B38FA006F803D /* CoreData.framework */,
+				38DA4B6B187B38FA006F803D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		38DA4B6C187B38FA006F803D /* BasicCocoaDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				3865239D1882F66B00DA3DE3 /* Utilities.h */,
+				3865239E1882F66B00DA3DE3 /* Utilities.m */,
+				3865239A1882F57300DA3DE3 /* DateTime.h */,
+				3865239B1882F57300DA3DE3 /* DateTime.m */,
+				38DA4B9D187B3912006F803D /* mrlShapesAndColors.h */,
+				38DA4B9E187B3912006F803D /* mrlShapesAndColors.m */,
+				38DA4B78187B38FA006F803D /* mrlAppDelegate.h */,
+				38DA4B79187B38FA006F803D /* mrlAppDelegate.m */,
+				38DA4B7B187B38FA006F803D /* MainMenu.xib */,
+				38DA4B81187B38FA006F803D /* Images.xcassets */,
+				38DA4B7E187B38FA006F803D /* BasicCocoaDrawing.xcdatamodeld */,
+				38DA4B6D187B38FA006F803D /* Supporting Files */,
+			);
+			path = BasicCocoaDrawing;
+			sourceTree = "<group>";
+		};
+		38DA4B6D187B38FA006F803D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38DA4B6E187B38FA006F803D /* BasicCocoaDrawing-Info.plist */,
+				38DA4B6F187B38FA006F803D /* InfoPlist.strings */,
+				38DA4B72187B38FA006F803D /* main.m */,
+				38DA4B74187B38FA006F803D /* BasicCocoaDrawing-Prefix.pch */,
+				38DA4B75187B38FA006F803D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38DA4B8D187B38FA006F803D /* BasicCocoaDrawingTests */ = {
+			isa = PBXGroup;
+			children = (
+				38DA4B93187B38FA006F803D /* BasicCocoaDrawingTests.m */,
+				38DA4B8E187B38FA006F803D /* Supporting Files */,
+			);
+			path = BasicCocoaDrawingTests;
+			sourceTree = "<group>";
+		};
+		38DA4B8E187B38FA006F803D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38DA4B8F187B38FA006F803D /* BasicCocoaDrawingTests-Info.plist */,
+				38DA4B90187B38FA006F803D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38DA4B62187B38FA006F803D /* BasicCocoaDrawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DA4B97187B38FA006F803D /* Build configuration list for PBXNativeTarget "BasicCocoaDrawing" */;
+			buildPhases = (
+				38DA4B5F187B38FA006F803D /* Sources */,
+				38DA4B60187B38FA006F803D /* Frameworks */,
+				38DA4B61187B38FA006F803D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicCocoaDrawing;
+			productName = BasicCocoaDrawing;
+			productReference = 38DA4B63187B38FA006F803D /* BasicCocoaDrawing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38DA4B86187B38FA006F803D /* BasicCocoaDrawingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DA4B9A187B38FA006F803D /* Build configuration list for PBXNativeTarget "BasicCocoaDrawingTests" */;
+			buildPhases = (
+				38DA4B83187B38FA006F803D /* Sources */,
+				38DA4B84187B38FA006F803D /* Frameworks */,
+				38DA4B85187B38FA006F803D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38DA4B8C187B38FA006F803D /* PBXTargetDependency */,
+			);
+			name = BasicCocoaDrawingTests;
+			productName = BasicCocoaDrawingTests;
+			productReference = 38DA4B87187B38FA006F803D /* BasicCocoaDrawingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38DA4B5B187B38FA006F803D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = mrl;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alvaro Muir";
+				TargetAttributes = {
+					38DA4B86187B38FA006F803D = {
+						TestTargetID = 38DA4B62187B38FA006F803D;
+					};
+				};
+			};
+			buildConfigurationList = 38DA4B5E187B38FA006F803D /* Build configuration list for PBXProject "BasicCocoaDrawing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38DA4B5A187B38FA006F803D;
+			productRefGroup = 38DA4B64187B38FA006F803D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38DA4B62187B38FA006F803D /* BasicCocoaDrawing */,
+				38DA4B86187B38FA006F803D /* BasicCocoaDrawingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38DA4B61187B38FA006F803D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DA4B71187B38FA006F803D /* InfoPlist.strings in Resources */,
+				38DA4B82187B38FA006F803D /* Images.xcassets in Resources */,
+				38DA4B77187B38FA006F803D /* Credits.rtf in Resources */,
+				38DA4B7D187B38FA006F803D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DA4B85187B38FA006F803D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DA4B92187B38FA006F803D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38DA4B5F187B38FA006F803D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3865239F1882F66B00DA3DE3 /* Utilities.m in Sources */,
+				3865239C1882F57300DA3DE3 /* DateTime.m in Sources */,
+				38DA4B80187B38FA006F803D /* BasicCocoaDrawing.xcdatamodeld in Sources */,
+				38DA4B7A187B38FA006F803D /* mrlAppDelegate.m in Sources */,
+				38DA4B73187B38FA006F803D /* main.m in Sources */,
+				38DA4B9F187B3912006F803D /* mrlShapesAndColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DA4B83187B38FA006F803D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DA4B94187B38FA006F803D /* BasicCocoaDrawingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38DA4B8C187B38FA006F803D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38DA4B62187B38FA006F803D /* BasicCocoaDrawing */;
+			targetProxy = 38DA4B8B187B38FA006F803D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38DA4B6F187B38FA006F803D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38DA4B70187B38FA006F803D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		38DA4B75187B38FA006F803D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38DA4B76187B38FA006F803D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		38DA4B7B187B38FA006F803D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38DA4B7C187B38FA006F803D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		38DA4B90187B38FA006F803D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38DA4B91187B38FA006F803D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38DA4B95187B38FA006F803D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		38DA4B96187B38FA006F803D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		38DA4B98187B38FA006F803D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicCocoaDrawing/BasicCocoaDrawing-Prefix.pch";
+				INFOPLIST_FILE = "BasicCocoaDrawing/BasicCocoaDrawing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		38DA4B99187B38FA006F803D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicCocoaDrawing/BasicCocoaDrawing-Prefix.pch";
+				INFOPLIST_FILE = "BasicCocoaDrawing/BasicCocoaDrawing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		38DA4B9B187B38FA006F803D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BasicCocoaDrawing.app/Contents/MacOS/BasicCocoaDrawing";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicCocoaDrawing/BasicCocoaDrawing-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BasicCocoaDrawingTests/BasicCocoaDrawingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		38DA4B9C187B38FA006F803D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BasicCocoaDrawing.app/Contents/MacOS/BasicCocoaDrawing";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicCocoaDrawing/BasicCocoaDrawing-Prefix.pch";
+				INFOPLIST_FILE = "BasicCocoaDrawingTests/BasicCocoaDrawingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38DA4B5E187B38FA006F803D /* Build configuration list for PBXProject "BasicCocoaDrawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DA4B95187B38FA006F803D /* Debug */,
+				38DA4B96187B38FA006F803D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DA4B97187B38FA006F803D /* Build configuration list for PBXNativeTarget "BasicCocoaDrawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DA4B98187B38FA006F803D /* Debug */,
+				38DA4B99187B38FA006F803D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DA4B9A187B38FA006F803D /* Build configuration list for PBXNativeTarget "BasicCocoaDrawingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DA4B9B187B38FA006F803D /* Debug */,
+				38DA4B9C187B38FA006F803D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38DA4B7E187B38FA006F803D /* BasicCocoaDrawing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38DA4B7F187B38FA006F803D /* BasicCocoaDrawing.xcdatamodel */,
+			);
+			currentVersion = 38DA4B7F187B38FA006F803D /* BasicCocoaDrawing.xcdatamodel */;
+			path = BasicCocoaDrawing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 38DA4B5B187B38FA006F803D /* Project object */;
+}

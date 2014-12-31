@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+groovy.debug.force_options=false
+groovy.editor.groovyDoc.keyword.enabled=true
+groovy.editor.groovyDoc.link.enabled=true
+groovy.editor.groovyDoc.tag.enabled=true
+groovy.plugin.ask.to.convert=false
