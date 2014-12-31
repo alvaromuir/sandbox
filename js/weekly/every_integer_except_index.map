@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "every_integer_except_index.js",
+  "sourceRoot": "",
+  "sources": [
+    "every_integer_except_index.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA,wCAAA;;AAAA,EAAA,wCAAA,GAA2C,SAAC,GAAD,GAAA;WACzC,IADyC;EAAA,CAA3C,CAAA;AAAA"
+}
